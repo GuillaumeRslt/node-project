@@ -18,8 +18,10 @@
     "@hapi/boom": "9.x.x",
     "haute-couture": "3.x.x",
     "joi": "17.x.x",
+    "mysql": "^2.18.1",
     "objection": "2.x.x",
-    "schwifty": "5.x.x"
+    "schwifty": "5.x.x",
+    "sqlite3": "5.0.1"
   },
   "peerDependencies": {
     "knex": "0.21.x"
