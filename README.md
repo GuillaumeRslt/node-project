@@ -8,27 +8,22 @@
 
 ### ajouter .env dans node-project/server
 
-`# data base config`
+```editorconfig
+# data base config
 
-`DB_HOST=[ip address]`
+DB_HOST=[ip address]
+DB_USER=[user name]
+DB_PASSWORD=[user password]
+DB_DATABASE=[table name]
  
-`DB_USER=[user name]`
+# nodemailer config (not required)
 
-`DB_PASSWORD=[user password]`
- 
-`DB_DATABASE=[table name]`
- 
-`# nodemailer config (not required)`
-
-`MAIL_HOST=[mail host]`
-
-`MAIL_PORT=[mail port]`
-
-`MAIL_SECURE=[if the port is secure or not]`
-
-`MAL_USER=[user name]`
-
-`MAIL_PASS=[user password]`
+MAIL_HOST=[mail host]
+MAIL_PORT=[mail port]
+MAIL_SECURE=[if the port is secure or not]
+MAL_USER=[user name]
+MAIL_PASS=[user password]
+```
 
 ### lancer l'app
 
